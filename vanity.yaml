@@ -1,0 +1,62 @@
+host: go.openfeature.dev
+
+paths:
+  # go sdk v2
+  /openfeature/v2:
+    repo: https://github.com/open-feature/go-sdk
+  # contrib v2
+  #
+  # hooks
+  /contrib/hooks/open-telemetry/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: hooks/open-telemetry
+
+  # providers
+  /contrib/providers/aws-ssm/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/aws-ssm
+  /contrib/providers/configcat/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/configcat
+  /contrib/providers/flagd/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/flagd
+  /contrib/providers/flagsmith/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/flagsmith
+  /contrib/providers/flipt/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/flipt
+  /contrib/providers/envvar/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/from-env
+  /contrib/providers/go-feature-flag/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/go-feature-flag
+  /contrib/providers/go-feature-flag-in-process/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/go-feature-flag-in-process
+  /contrib/providers/harness/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/harness
+  /contrib/providers/launchdarkly/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/launchdarkly
+  /contrib/providers/ofrep/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/ofrep
+  /contrib/providers/optimizely/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/optimizely
+  /contrib/providers/prefab/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/prefab
+  /contrib/providers/rocketflag/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/rocketflag
+  /contrib/providers/statsig/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/statsig
+  /contrib/providers/unleash/v2:
+    repo: https://github.com/open-feature/go-sdk-contrib
+    subdir: providers/unleash
